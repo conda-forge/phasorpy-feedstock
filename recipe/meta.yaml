@@ -10,7 +10,7 @@ source:
   sha256: 129cf46c74ea2a49ea484624e674927461ea1247ccfcd103864913c8735d22d9
 
 build:
-  number: 1
+  number: 2
   skip: true  # [py<310]
   entry_points:
     - phasorpy = phasorpy.cli:main
@@ -40,7 +40,6 @@ requirements:
     - xarray >=2023.4.0
     - tifffile >=2024.8.30
     - ptufile
-    - {{ pin_compatible('numpy') }}
 
 test:
   imports:
