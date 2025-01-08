@@ -10,7 +10,7 @@ source:
   sha256: 129cf46c74ea2a49ea484624e674927461ea1247ccfcd103864913c8735d22d9
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<310]
   entry_points:
     - phasorpy = phasorpy.cli:main
