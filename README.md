@@ -246,6 +246,3 @@ Feedstock Maintainers
 * [@bruno-pannunzio](https://github.com/bruno-pannunzio/)
 * [@cgohlke](https://github.com/cgohlke/)
 
-
-<!-- dummy commit to enable rerendering -->
-
