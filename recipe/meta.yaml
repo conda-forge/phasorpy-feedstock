@@ -1,5 +1,5 @@
 {% set name = "phasorpy" %}
-{% set version = "0.4" %}
+{% set version = "0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/phasorpy-{{ version }}.tar.gz
-  sha256: 163dee76bb376d99695d23f5c66ed6656c2627e328574d750941de50d7aa9c97
+  sha256: 46e94c16bbfccf829b57c0b167b242c26c2c29d525c8bfb938fd6c72db61158d
 
 build:
   number: 0
