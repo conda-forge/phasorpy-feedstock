@@ -1,3 +1,2 @@
-# for Cython 3.1.0b1
 channel_sources:
   - conda-forge/label/cython_dev,conda-forge
