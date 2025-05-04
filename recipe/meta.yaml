@@ -15,6 +15,7 @@ build:
   entry_points:
     - phasorpy = phasorpy.cli:main
   script:
+    - conda config --set channel_priority disabled
     - conda install conda-forge/label/cython_dev::cython
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
