@@ -15,7 +15,7 @@ build:
   entry_points:
     - phasorpy = phasorpy.cli:main
   script:
-    - {{ PYTHON }} -m pip install Cython==3.1.0rc1
+    - conda install conda-forge/label/cython_dev::cython
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
