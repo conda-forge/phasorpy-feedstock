@@ -1,16 +1,16 @@
 {% set name = "phasorpy" %}
-{% set version = "0.7" %}
+{% set version = "0.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/f3/95/3913d8a8b34f3cacc41f44a6a76afca43589eb65475334539c261b4568a7/phasorpy-{{ version }}.tar.gz
-  sha256: efd244d8c4cf229a79aaea80d6bc6405e5478f181aeb47b2596ad19f08f0c7c4
+  url: https://files.pythonhosted.org/packages/fe/c0/bccdff8b445eeff6bccfdcbd98ca13b60fea0bbcf43c1c1ed782a82566a2/phasorpy-{{ version }}.tar.gz
+  sha256: 3078fdc9a91f9a0913abadf5856cc40de6ff242b63bfbfb380a288477ddc375a
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<311]
   entry_points:
     - phasorpy = phasorpy.cli:main
