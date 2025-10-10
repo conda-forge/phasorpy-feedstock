@@ -42,6 +42,9 @@ requirements:
     - ptufile
     - scikit-learn >=1.5.0
     - pawflim
+    - lfdfiles
+    - liffile
+    - fbdfile
 
 test:
   imports:
