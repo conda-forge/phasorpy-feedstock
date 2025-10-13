@@ -11,7 +11,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<311]
+  skip: true  # [py<312]
   entry_points:
     - phasorpy = phasorpy.cli:main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
@@ -42,6 +42,8 @@ requirements:
     - ptufile
     - scikit-learn >=1.5.0
     - pawflim
+    - liffile
+    - fbdfile
 
 test:
   imports:
