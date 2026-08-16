@@ -6,11 +6,11 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: fc1cc038297ff04b55f6a3acdd676d6e73b1c53fae365c48319e2cb7044fd3ee
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<312]
   entry_points:
     - phasorpy = phasorpy.cli:main
